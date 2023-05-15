@@ -1,0 +1,45 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+.img-fluid {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: auto;
+    padding: auto;
+    margin: auto;
+}
+
+.img-fluid-1{
+    border-radius:50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col-5{
+    text-align: center;
+}
+body {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    text-align: center;
+
+    #hometext {
+        font-size: 2rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
